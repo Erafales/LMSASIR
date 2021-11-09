@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="icon" type="image/x-icon" href="../imagenes/formicon.png">
+</head>
+
+<body>
+    <fieldset>
+        <legend>Este formulario es opcional, el formulario puede ser enviado de forma anónima</legend>
+        <form action="#" method="get">
+            <label for="nombre">Tú nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Opcional">
+            <br>
+            <br>
+            <label for="apellidos">Tus apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" placeholder="Opcional">
+            <br>
+            <br>
+            <label for="correo">Correo de contacto:</label>
+            <input type="email" id="correo" name="correo" placeholder="Opcional">
+            <br>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Formulario sobre el debate anterior</legend>
+        <label for="opinion">Cual de los dos crees que es mejor jugador:</label>
+        <br>
+        <br>
+        <input type="radio" id="Messi" name="MVP" value="Messi" required>
+        <label for="Messi">Messi</label>
+        <br>
+        <input type="radio" id="cr7" name="MVP" value="cr7" required>
+        <label for="cr7">Cristiano_Ronaldo</label>
+        <br>
+        <br>
+        <input type="number" name="1-10" min="1" max="10" required>
+        <label for="1-10">Opinión del 1 al 10 sobre el juador elegido</label>
+        <br>
+        <br>
+        <label for="explicacion">Aquí te dejamos un textarea por si quieres aportar alguna información relevante sobre
+            tú opinion:</label>
+        <br>
+        <br>
+        <textarea name="explicacion" rows="30" cols="60"></textarea>
+        <br>
+        <br>
+        <input type="reset">
+        <input type="submit">
+        <a href="../index.html">
+            <input type="button" class="button" value="Volver atras" />
+        </a>
+        </form>
+    </fieldset>
+</body>
