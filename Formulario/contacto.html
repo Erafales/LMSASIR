@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Formulario</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="icon" type="image/x-icon" href="../Imagenes/jdm.png">
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <div id="principal">
+        <fieldset>
+            <legend>Este formulario es opcional</legend>
+            <form action="#" method="get">
+                <label for="nombre">Tú nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Opcional" autofocus>
+                <br>
+                <br>
+                <label for="apellidos">Tus Apellidos</label>
+                <input type="text" id="Apellidos" placeholder="Opcional" name="Apellidos">
+                <br>
+                <br>
+                <label for="gmail">Tú correo de contacto</label>
+                <input type="email" id="gmail" placeholder="Opcional" name="correo">´
+                <br>
+            </form>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Esta parte consta de varias pregunas para ponerte a prueba</legend>
+            <p>¿Cual de los anteriores coches usaba el motor RB26DETT?</p>
+            <label for="m1">Nissan Skyline R34</label>
+            <input type="radio" id="m1" name="pregunta1" value="NSL4">
+            <br>
+            <label for="m2">Toyota Supra Mk3</label>
+            <input type="radio" id="m2" name="pregunta1" value="TSm3">
+            <br>
+            <label for="m3">Toyota Supra Mk4</label>
+            <input type="radio" id="m3" name="pregunta1" value="TSm4">
+            <br>
+            <p>¿Cual de los anteriores coches usaba el motor 2JZ-GTE?</p>
+            <label for="m4">Toyota Supra Mk4</label>
+            <input type="radio" id="m4" name="pregunta2" value="Mk4">
+            <br>
+            <label for="m5">Nissan Skyline R33</label>
+            <input type="radio" id="m5" name="pregunta2" value="R33">
+            <br>
+            <label for="m6">Nissan Skyline R34</label>
+            <input type="radio" id="m6" name="pregunta2" value="R34">
+            <br>
+            <p>¿Cual era la potencia máxima del motor 2JZ-GTE?</p>
+            <label for="p1">500 HP</label>
+            <input type="radio" id="p1" name="pregunta3" value="500">
+            <br>
+            <label for="p2">320 HP</label>
+            <input type="radio" id="p2" name="pregunta3" value="320">
+            <br>
+            <label for="p3">400 HP</label>
+            <input type="radio" id="p3" name="pregunta3" value="400">
+            <br>
+            <p>Los JDM son originales de:</p>
+            <label for="a1">China</label>
+            <input type="radio" id="a1" name="pregunta4" value="China">
+            <br>
+            <label for="a2">Japón</label>
+            <input type="radio" id="a2" name="pregunta4" value="Japon">
+            <br>
+            <label for="a3">Alemánia</label>
+            <input type="radio" id="a3" name="pregunta4" value="Alemania">
+            <br>
+            <br>
+            <label for="explicacion">Aquí te dejamos un textarea por si quieres aportar alguna información</label>
+            <br>
+            <br>
+            <textarea name="explicacion" rows="15" cols="30"></textarea>
+            <br>
+            <br>
+            <input type="reset">
+            <input type="submit">
+            <a href="../index.html">
+          <input type="button" class="button" value="Volver atras" />
+         </form>
+    </div>
+</body>
+
+</html>
